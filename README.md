@@ -76,7 +76,6 @@ Alle Optionen sind in `config.example.ini` kommentiert. Für eine zweite Flasche
 ## Bekannte Stolpersteine
 
 - **Nur eine Verbindung gleichzeitig.** Die Truma-App muss beim Lesen geschlossen sein.
-- **Funkmodul.** Das HA-Projekt empfiehlt einen RTL8761B-USB-Dongle. Andere berichten von GATT-Problemen mit dem eingebauten Bluetooth des Cerbo.
 - **vesmart-server.** Victrons BLE-Dienst für VictronConnect kann fremde BLE-Verbindungen trennen. Dafür gibt es einen Community-Patch (TechBlueprints/victron-bluetooth-safety).
 - **Temperatur.** Sie wird als vorzeichenbehaftetes Byte gelesen. Das ist eine Annahme und bei Minusgraden gegenzuprüfen.
 - **Nach einem Neustart.** Kennt bluetoothd den Sensor dann nicht mehr, führt der Dienst einmal eine kurze Discovery durch.
