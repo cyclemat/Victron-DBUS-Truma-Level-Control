@@ -1,4 +1,6 @@
-# dbus-truma-levelcontrol
+# dbus-truma-level-control
+
+Momentan alles Beta Bin noch am Testen der Bluetooth stack von venus os bringt mich um den verstand einfach testen und vieleicht hat ja noch einer eine idee !
 
 Truma LevelControl als LPG-Tank auf Victron-GX-Geräten (Venus OS), über den originalen Bluetooth-Stack (bluetoothd/BlueZ). Kein bleak, kein pip, nur was Venus OS mitbringt.
 
