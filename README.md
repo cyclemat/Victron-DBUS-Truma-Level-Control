@@ -80,7 +80,3 @@ Alle Optionen sind in `config.example.ini` kommentiert. Für eine zweite Flasche
 - **vesmart-server.** Victrons BLE-Dienst für VictronConnect kann fremde BLE-Verbindungen trennen. Dafür gibt es einen Community-Patch (TechBlueprints/victron-bluetooth-safety).
 - **Temperatur.** Sie wird als vorzeichenbehaftetes Byte gelesen. Das ist eine Annahme und bei Minusgraden gegenzuprüfen.
 - **Nach einem Neustart.** Kennt bluetoothd den Sensor dann nicht mehr, führt der Dienst einmal eine kurze Discovery durch.
-
-## Lizenz
-
-GPL-3.0 wie das Original. Bitte die `LICENSE` aus dem HA-Repo beilegen, wenn du das Paket veröffentlichst.
