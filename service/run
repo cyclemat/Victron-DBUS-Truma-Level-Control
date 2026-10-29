@@ -1,0 +1,4 @@
+#!/bin/sh
+exec 2>&1
+cd /data/dbus-truma-levelcontrol
+exec python3 -u /data/dbus-truma-levelcontrol/dbus_truma_levelcontrol.py
